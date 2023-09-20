@@ -1,0 +1,23 @@
+@media (max-width:412px) {
+.navigation{
+    float:none; 
+    color: red;
+}
+.nav-item{
+    display: block;
+    font-size: 60px;
+    width: fit-content;
+    margin: auto;
+}
+.menu{
+    position: static;
+}
+.header{
+    width: 1200px;
+}
+.about-card{
+    display: block;
+    margin: auto;
+    width: 500px;
+}
+}

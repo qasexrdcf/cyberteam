@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-conrainer container">
+        <div class="form-header">
+            
+            <a class="go-back" href=""><</a>
+            <p class="form-header-text" >Заявка на вступление</p>
+        </div>
+        <form action="">
+            <fieldset class="nickname" >
+                <legend>
+                    Ваш никнейм в реальной жизни:)
+                </legend>
+                <input name="name" placeholder="name" type="text">
+                <input name="surname" placeholder="surname" type="text">
+            </fieldset>
+            <div class="wrapper">
+                <p>Ваш пол</p>
+                <input name="gender" id="male" type="radio">
+                <label for="male">Мужской</label>
+                <input name="gender" id="female" type="radio">
+                <label for="female">Женский</label>
+            </div>
+            <div class="wrapper">
+                <input name="age" id="age" type="checkbox">
+                <label for="age">Мне есть 18</label>
+            </div>
+            <div class="wrapper">
+                <label for="game">Ваша дисциплина</label>
+                <select name="game" id="game">
+                    <option value="CS:GO">
+                        CS:GO
+                    </option>
+                    <option value="Dota2">
+                        Dota2
+                    </option>
+                    <option value="Apex">
+                        Apex
+                    </option>
+                </select>
+            </div>
+            <div class="wrapper">
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+            </div>
+            <button>Отправить заявку</button>
+        </form>
+    </div>
+    <div class="test1">
+    
+    </div>
+    <div class="test2">
+
+    </div>
+</body>
+</html>

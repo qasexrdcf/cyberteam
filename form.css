@@ -1,0 +1,94 @@
+.go-back{
+    background-color: lightgrey;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+}
+.form-header-text{
+    background-color: #65daff;
+    font-size: 16px;
+    display: inline-block;
+    width: 950px;
+    height: 50px;
+    vertical-align: top;
+    padding: 0%;
+    margin: 0%;
+    margin-left: -4px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+.nickname{
+    color: white;
+    padding: 10px;
+}
+.nickname input{
+    width: 80%;
+    background: none;
+    border: none;
+    border-bottom: 2px solid silver;
+    padding: 12px;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+    outline: none;
+}
+.nickname input::placeholder{
+    color: white;
+}
+
+form{
+    text-align: center;
+    color: white;
+}
+.wrapper{
+    text-align: left;
+    margin-top:20px ;
+}
+.wrapper p{
+    font-size: 16px;
+}
+.wrapper input{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+textarea{
+    width: 80%;
+    resize: none;
+    background: none;
+    color: white;
+    padding: 8px;
+    margin: 43px 100px;
+}
+button{
+    padding: 20px ;
+    color: white;
+    background:linear-gradient(45deg,#65daff,#70ffcb) ;
+    width: 300px;
+    font-size: 15px;
+}
+.form-conrainer{
+    box-shadow: 0 5px 15px rgb(15, 15, 15);
+    margin-top: 20px;
+}
+.test1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 2;
+}
+.test2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+}
